@@ -1,0 +1,5 @@
+dias=int(input('Quantos dias de carro alugado? '))
+km=float(input('Quantos km foi percorrido com o carro nesse periodo? '))
+valor=(dias*80)+(km*0.20)
+print('-----Valor a ser pago-----')
+print('Valor para ser pago durante o periodo de {} dias e {}km percorridos \nfica R${:.2f}'.format(dias,km,valor))
