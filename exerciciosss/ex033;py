@@ -1,0 +1,10 @@
+print('='*30)
+print(('\033[1;35mAnalise de triangulos]'))
+print('='*30)
+l1=float(input('\033[33mdigite um valor para comprimento da primeira linha: '))
+l2=float(input('\033[33mdigite um valor para comprimento da segunda linha: '))
+l3=float(input('\033[33mdigite um valor para comprimento da terceira linha: '))
+if l1< l2 + l3 and l2< l1 + l3 and l3< l1 + l2:
+    print('\033[32m     As linhas conseguem FORMAR UM TRIANGULO')
+else:
+    print('\033[31m     As linhas NÃO FORMAM UM TRIANGULO')
